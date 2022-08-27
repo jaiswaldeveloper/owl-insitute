@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+.btn {
+  font-family: 'Poppins', sans-serif;
+}
+
+.brand-logo {
+  width: 100px;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.student-form {
+  text-transform: capitalize;
+  border-radius: 0 !important;
+}
+.form {
+  text-transform: capitalize;
+  border-radius: 0 !important;
+  margin-left: 8px !important;
+  padding: 5px 20px !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+.insitute-form,
+.btn-contact {
+  text-transform: capitalize;
+  border-radius: 0 !important;
+  margin-left: 8px !important;
+  padding: 5px 20px !important;
+
+  color: #fff !important;
+  background-color: rgb(3, 152, 232) !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav-section {
+  z-index: 2;
+  width: 100%;
+}
+.new-bg {
+  background-color: #6c0f3a;
+  color: #fff !important;
+}
+
+.header-slider {
+  position: relative;
+}
+
+.header-slider img {
+  width: 100%;
+}
+.navbar-nav ul li a {
+  color: #fff !important;
+}
+.edit {
+  text-transform: capitalize !important;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.ml12 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.header-animation {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  left: 10%;
+}
+
+.bg-marc-card {
+  position: relative;
+  width: 100%;
+  margin-top: -90px;
+  z-index: 3;
+  padding: 2rem;
+  background-color: #ffc107;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.bg-marc-card h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.marc-cards {
+  width: 100%;
+  height: 385px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  transition: all 0.5s;
+}
+.marc-cards:hover {
+  transform: translateY(-10px);
+}
+.main-imges img {
+  width: 100%;
+}
+.company-logo img {
+  margin-top: 1.5rem;
+  width: 100px;
+  text-align: center;
+}
+.company-name {
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.ml2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.about-content p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.about-gallery {
+  display: flex;
+}
+
+.why-content {
+  background: #fafafa;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.why-us {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  text-transform: capitalize;
+}
+.why-us img {
+  width: 80px;
+}
+.why-us p {
+  font-size: 15px;
+}
+
+/* portfolio */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffc107;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {
+  color: red;
+}
+
+.portfolio img {
+  width: 100%;
+}
+/* portfolio */
+.portfolio h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.styles {
+  list-style: 2 !important;
+  /* border-radius: 0 !important; */
+  border: 2px solid #232323 !important;
+  padding: 5px 2px !important;
+}
+.contact-form > div {
+  margin-bottom: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+.form-d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teacher-form {
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.teacher-form > div {
+  margin-bottom: 1rem;
+}
+.classes {
+  width: 100% !important;
+  height: 2.5rem;
+  border: 2px solid #232323 !important;
+}
+label {
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+.test-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-cards {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  transition: all 0.5s;
+}
+.testimonial-cards:hover {
+  transform: translateY(-10px);
+}
+.testimonial-cards p {
+  font-size: 14px;
+}
+.test-content img {
+  border-radius: 50px;
+  width: 60px;
+}
+.test-content h5 {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #919191;
+}
+.test-content h6 {
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #000000;
+}
+.testimonial-cards i {
+  opacity: 0.1;
+  font-size: 5rem;
+  position: absolute;
+}
+.fouth-test {
+  margin-bottom: 2rem;
+}
+.testimonials-section h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.contact-address > div {
+  display: flex;
+  margin-top: 2rem;
+}
+.contact-address p {
+  font-size: 1.1rem;
+}
+.contact-address i {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.footer-section {
+  background-color: #6c0f3a;
+  padding: 1rem;
+  text-align: center;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.footer-icons i {
+  margin: 1rem;
+}
+
+.faq-section h3 {
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .bg-marc-card {
+    margin: 0;
+  }
+  .marc-cards {
+    margin-bottom: 2rem;
+  }
+  .header-animation {
+    top: 20%;
+  }
+  .ml12 {
+    font-size: 1rem;
+  }
+  .bg-marc-card h2 {
+    padding: 1rem;
+  }
+  .left-side img {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 14px;
+  }
+  .why-us p {
+    font-size: 12px;
+  }
+  .tab button {
+    font-size: 14px;
+  }
+  .insitute-form,
+  .student-form,
+  .teacher-form {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+}
